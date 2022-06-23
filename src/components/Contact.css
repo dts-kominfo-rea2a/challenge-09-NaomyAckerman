@@ -1,0 +1,32 @@
+.contact{
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F4DEB3;
+    padding: 20px 20px;
+    margin: 10px;
+}
+
+.contact__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact__info h5{
+    font-size: 16px;
+}
+
+.contact__info h5,p{
+    margin: 7px 0;
+}
